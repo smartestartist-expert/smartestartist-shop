@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smartest Artist Shop</title>
+  <link rel="stylesheet" href="/shared/theme.css">
+  <link rel="stylesheet" id="alt-style" href="/shared/style-retro.css">
+  <script>
+    const themes = [
+      "/shared/style-retro.css",
+      "/shared/style-clean.css",
+      "/shared/style-vapor.css"
+    ];
+    document.getElementById("alt-style").href = themes[Math.floor(Math.random() * themes.length)];
+  </script>
+</head>
+<body>
+  <main class="container">
+    <h1>smartest::artist("shop")</h1>
+    <p>Browse our retro projects, digital goods, and custom server packages. Everything built by vibe.</p>
+    <div class="links">
+      <a href="mailto:info@smartestartist.expert">Contact</a>
+      <a href="https://github.com/smartestartist-expert" target="_blank">GitHub</a>
+      <a href="https://www.smartestartist.expert" target="_blank">Homepage</a>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Smartest Artist. All rights reserved.
+  </footer>
+</body>
+</html>
